@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-#face_cascade = cv2.CascadeClassifier('cascadeH5.xml')
-#face_cascade = cv2.CascadeClassifier('cascadG.xml')
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-#face_cascade = cv2.CascadeClassifier('haarcascade_fullbody.xml')
+#face_cascade = cv2.CascadeClassifier('data/cascadeH5.xml')
+#face_cascade = cv2.CascadeClassifier('data/cascadG.xml')
+face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
+#face_cascade = cv2.CascadeClassifier('data/haarcascade_fullbody.xml')
 cap = cv2.VideoCapture(0)
 while True:
   _, frame = cap.read()
